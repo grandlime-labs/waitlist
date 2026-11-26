@@ -163,14 +163,13 @@ h1 { font-size: clamp(2rem, 5vw, 2.75rem); }
 
 .field { margin-bottom: 18px; }
 
-.field label,
-.interests legend {
+.field label {
   display: block;
   font-weight: 700;
   margin-bottom: 8px;
 }
 
-.req, .optional {
+.req {
   font-weight: 400;
   color: var(--muted);
   font-size: 0.85em;
@@ -190,7 +189,6 @@ input[type="email"] {
 input[type="email"]::placeholder { color: #7d879c; }
 
 input[type="email"]:focus,
-.check input:focus-visible,
 .submit:focus-visible,
 .x-link:focus-visible,
 .skip-link:focus-visible,
@@ -201,30 +199,6 @@ input[type="email"]:focus,
 
 input[type="email"]:user-invalid {
   border-color: var(--error);
-}
-
-.interests {
-  margin: 0 0 18px;
-  padding: 0;
-  border: 0;
-}
-
-.interests legend { margin-bottom: 10px; }
-
-.check {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  min-height: 44px;
-  margin: 0;
-  cursor: pointer;
-}
-
-.check input {
-  width: 22px;
-  height: 22px;
-  accent-color: var(--lime);
-  flex-shrink: 0;
 }
 
 .submit {
@@ -251,15 +225,6 @@ input[type="email"]:user-invalid {
   color: var(--muted);
   font-size: 0.9rem;
 }
-
-.form-status {
-  margin: 10px 0 0;
-  min-height: 1.3em;
-  font-size: 0.95rem;
-}
-
-.form-status.error { color: var(--error); }
-.form-status.ok { color: var(--lime); }
 
 .teaser {
   margin: 36px 0 48px;

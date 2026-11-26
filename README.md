@@ -12,13 +12,7 @@ The page is plain HTML/CSS and works without JavaScript. The form `POST`s to But
 
 `https://buttondown.com/api/emails/embed-subscribe/grandlimelabs`
 
-| Field | HTML `name` / `value` |
-| --- | --- |
-| Email (required) | `name="email"` |
-| Book (optional) | `name="tag"` `value="book"` |
-| Software tools (optional) | `name="tag"` `value="software-tools"` |
-
-Interest checkboxes use Buttondown’s documented embed-form `tag` inputs. Buttondown auto-creates a tag if it does not already exist, so the tags do not have to be created in the dashboard first. **Tagging & segmentation is a paid Buttondown add-on** (not part of the free plan). Email signup itself works on the free plan; interest tags may only apply once that add-on is enabled. Do not submit this form with `fetch()`: Buttondown may need the browser to follow the response for a CAPTCHA or validation page.
+The only field is a required email input, `name="email"`. Do not submit this form with `fetch()`: Buttondown may need the browser to follow the response for a CAPTCHA or validation page.
 
 The privacy line on the page is: we use your email only for launch updates, and you can unsubscribe anytime.
 
