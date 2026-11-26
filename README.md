@@ -1,6 +1,6 @@
 # GrandLime Labs waitlist
 
-Static waitlist page for **GrandLime Labs** (*Plot A Course For Greatness*), the digital-products division of GrandLime.
+Static waitlist page for **GrandLime Labs** (*Plot A Course For Greatness*), a small studio making digital products: illustrated books and software tools.
 
 Free email signup only: no prices, preorders, payments, or donations. There is no business licence until January 2027.
 
